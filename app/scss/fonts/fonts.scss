@@ -1,0 +1,10 @@
+// Подключение шрифтов
+// Флаг &display=swap необходим для коректного отображения шрифтов
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:700&display=swap");
+
+// Шрифт по умолчанию
+$defaultFonts: 'Roboto', sans-serif;
+
+// Остальные шрифты
+$lato: 'Lato', sans-serif;
