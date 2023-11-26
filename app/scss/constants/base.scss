@@ -32,6 +32,16 @@ main {
 }
 
 ._label {
+	&-section {
+		padding: 70px 0;
+	}
+	&-title {
+		color: #2C2D35;
+		font-size: clamp(24px, 5vw, 40px);
+		font-weight: 500;
+		line-height: 110%;
+	}
+
 	&-btn {
 		border: 1px solid #598D66;
 		display: inline-flex;
@@ -41,6 +51,12 @@ main {
 
 		color: #598D66;
 		font-size: 20px;
+		transition: all 0.2s ease-in-out;
 		font-weight: 500;
+
+		&:hover {
+			background: #598D66;
+			color: #F4F6F5;
+		}
 	}
 }

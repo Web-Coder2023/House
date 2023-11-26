@@ -42,6 +42,7 @@ function pages() {
         .pipe(browserSync.stream())
 }
 
+
 function styles() {
     return src('app/scss/*.scss')
         .pipe(autoprefixer({overrideBrowserslist: ['last 10 version']}))
