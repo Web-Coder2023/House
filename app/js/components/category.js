@@ -48,42 +48,42 @@ const reproductionsData = {
             author: 'Курт Вернер',
             title: 'Над городом',
             tags: 'Цветная литография (40х60) ',
-            price: '16 000 руб',
+            price: '16 000',
             image: './images/reproductions/germany/product7.webp'
         },
         {
             author: 'Макс Рихтер',
             title: 'Птенцы',
             tags: 'Холст, масло (50х80)',
-            price: '14 500 руб',
+            price: '14 500',
             image: './images/reproductions/germany/product8.webp'
         },
         {
             author: 'Мартин Майер',
             title: 'Среди листьев',
             tags: 'Цветная литография (40х60)',
-            price: '20 000 руб',
+            price: '20 000',
             image: './images/reproductions/germany/product9.webp'
         },
         {
             author: 'Герман Беккер',
             title: 'Яркая птица',
             tags: 'Цветная литография (40х60)',
-            price: '13 000 руб',
+            price: '13 000',
             image: './images/reproductions/germany/product10.webp'
         },
         {
             author: 'Вульф Бауэр',
             title: 'Дятлы',
             tags: 'Бумага, акрил (50х80)',
-            price: '20 000 руб',
+            price: '20 000',
             image: './images/reproductions/germany/product11.webp'
         },
         {
             author: 'Вальтер Хартманн',
             title: 'Большие воды',
             tags: 'Бумага, акрил (50х80) ',
-            price: '23 000 руб',
+            price: '23 000',
             image: './images/reproductions/germany/product12.webp'
         },
     ],
@@ -92,42 +92,42 @@ const reproductionsData = {
             author: 'Пол Смит',
             title: 'Дикий зверь',
             tags: 'Акварель, бумага (50х80) ',
-            price: '19 500 руб',
+            price: '19 500',
             image: './images/reproductions/england/product13.webp'
         },
         {
             author: 'Джон Уайт',
             title: 'Скалистый берег',
             tags: 'Цветная литография (40х60) ',
-            price: '17 500 руб',
+            price: '17 500',
             image: './images/reproductions/england/product14.webp'
         },
         {
             author: 'Джим Уотсон',
             title: 'Река и горы',
             tags: 'Акварель, бумага (50х80) ',
-            price: '20 500 руб',
+            price: '20 500',
             image: './images/reproductions/england/product15.webp'
         },
         {
             author: 'Юджин Зиллион',
             title: 'Белый попугай',
             tags: 'Цветная литография (40х60) ',
-            price: '15 500 руб',
+            price: '15 500',
             image: './images/reproductions/england/product16.webp'
         },
         {
             author: 'Эрик Гиллман',
             title: 'Ночная рыба',
             tags: 'Бумага, акрил (50х80) ',
-            price: '12 500 руб',
+            price: '12 500',
             image: './images/reproductions/england/product17.webp'
         },
         {
             author: 'Альфред Барр',
             title: 'Рыжий кот',
             tags: 'Цветная литография (40х60) ',
-            price: '21 000 руб',
+            price: '21 000',
             image: './images/reproductions/england/product18.webp'
         },
     ]

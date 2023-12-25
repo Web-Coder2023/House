@@ -12,5 +12,6 @@ const burger = () => {
             menuBody.style.maxHeight = 0;
         }
     })
+    console.log(menuListHeight); // Выводит 200
 }
 burger();
