@@ -1,0 +1,42 @@
+.webcoder {
+    padding: 20px 0;
+    background-color: #242121;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+    h6 {
+        position: relative;
+        margin-left: 11px;
+        overflow: hidden;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 45px;
+            transform: skewX(-45deg); // Наклон
+            animation: flareAnimationWebCoder 6s infinite linear;
+            left: -150%;
+            background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+        }
+    }
+    a {
+        color: #ffbb01;
+    }
+}
+
+@keyframes flareAnimationWebCoder {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}

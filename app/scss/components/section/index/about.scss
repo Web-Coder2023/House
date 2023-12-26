@@ -1,0 +1,49 @@
+.about {
+    padding: 70px 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        gap: clamp(60px, 5vw, 20px);
+    }
+
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 635px;
+        padding-top: 45px;
+
+        &-title {
+            margin-bottom: 20px;
+            color: #2C2D35;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 110%;
+        }
+
+        &-text {
+            color: #2C2D35;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 150%;
+        }
+
+        &-ptofile {
+            margin-top: 20px;
+            display: flex;
+            gap: 30px;
+
+            li {
+                height: 80px;
+                width: 80px;
+                border-radius: 100%;
+                overflow: hidden;
+
+                img {
+                    object-position: left;
+                }
+            }
+        }
+    }
+}
