@@ -7,6 +7,7 @@
     }
 
     &__tab {
+
         display: flex;
         gap: 32px;
 
@@ -35,7 +36,7 @@
 
     &__list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(min(11.25rem, 100%), 1fr));
         gap: 30px;
 
         &-item {
@@ -95,11 +96,73 @@
     }
 }
 
-@media screen and (min-width: 510px) and (max-width: 1100px) {
-    .reproductions{
+@media (max-width: 1100px) {
+    .reproductions {
+        ._label-title {
+            font-size: 30px;
+        }
+
+        &__list {
+            justify-content: center;
+            grid-template-columns: repeat(2, minmax(min(11.25rem, 100%), 350px));
+        }
+
+        &__tab {
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 690px) {
+    .reproductions {
+        &__inner {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        &__tab {
+            width: 100vw;
+            overflow-x: scroll;
+            padding-right: 30px;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+
         &__list{
-            grid-template-columns: repeat(2, 1fr);
-            justify-items: center;
+            &-item {
+                &_author {
+                    margin-bottom: 10px;
+                    margin-top: 15px;
+                    font-size: 16px;
+                }
+                &_title {
+                    font-size: 24px;
+                    text-wrap: nowrap;
+                }
+                &_tags {
+                    font-size: 16px;
+                }
+                &_pay {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                ._label-btn {
+                    font-size: 20px;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .reproductions {
+        &__list {
+            justify-content: center;
+            grid-template-columns: repeat(1, minmax(min(11.25rem, 100%), 350px));
         }
     }
 }

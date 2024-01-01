@@ -7,6 +7,15 @@
         gap: clamp(60px, 5vw, 20px);
     }
 
+    &__img {
+        max-width: 445px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
     &__descr {
         display: flex;
         flex-direction: column;
@@ -44,6 +53,41 @@
                     object-position: left;
                 }
             }
+        }
+    }
+}
+@media (max-width: 1130px) {
+    .about {
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__img {
+            margin-right: 150px;
+            max-width: 510px;
+        }
+
+        &__descr {
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width: 690px) {
+    .about {
+        padding: 50px 0;
+
+        &__container {
+        gap: 30px;
+        }
+
+        &__img {
+            margin: 0;
+            max-width: 303px;
+        }
+
+        &__descr {
+            padding-top: 30px;
         }
     }
 }

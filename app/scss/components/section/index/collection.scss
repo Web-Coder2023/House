@@ -73,6 +73,7 @@
             background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
             animation: flareAnimation 3s infinite linear; // Время и тип анимации можно менять
         }
+
         &:hover {
             transform: scale(1.08);
         }
@@ -88,11 +89,36 @@
         left: 150%;
     }
 }
+
 @keyframes rotateStars {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 690px) {
+    .collection {
+        &__head {
+            &-img {
+                width: 60px;
+                height: 60px;
+                svg {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+
+            &-text {
+                font-size: 30px;
+            }
+        }
+
+        &__btn {
+            margin-top: 30px;
+        }
     }
 }
